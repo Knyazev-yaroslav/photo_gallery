@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:wght@600&display=swap');
+
+.all_images{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h1{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 16px;
+  color: #424242;
+  margin-bottom: 40px;
+}
+

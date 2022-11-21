@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:wght@600&display=swap');
+
+.page_footer {
+  background-color: #F2F2F2;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.container{
+  width: 1140px;
+}
+
+.footer_menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sticker_logo{
+  font-family: 'Montserrat';
+  width: 102px;
+  height: 32px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #424242;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 24px;
+  border-right: 1px solid rgba(66, 66, 66, 0.5);
+}
+
+// .sticker_logo.img{
+//   margin-right: 4px;
+// }
+
+
+.footer_text{
+  color: #424242;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  opacity: 0.6;
+  margin-left: 24px;
+}
+
+// .footer_rigth_text{
+//   padding-left: 24px;
+//   border-left: 1px solid #424242;
+//   opacity: 0.5;
+// }
+
+.footer_left{
+  display: flex;
+  align-items: center;
+}

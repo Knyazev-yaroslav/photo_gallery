@@ -1,0 +1,116 @@
+.img_popup{
+  height: 840px;
+  width: 840px;
+  position: relative;
+  z-index: 10;
+}
+
+
+.popup{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+  background-color: rgba($color: black, $alpha: 0.7);
+  overflow: hidden;
+  z-index: 5;
+
+  &:hover{
+    .close_svg{
+      opacity: 0.8;
+    }
+  }
+}
+
+.btn__prev{
+  display: block;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-color: rgba(28,28,28,0);
+  border: 0;
+  height: 840px;
+  width: 420px;
+  // cursor: pointer;
+  img{
+    width: 60px;
+    height: 60px;
+    opacity: 0.3;
+    display: flex;
+    margin-left: 45px;
+    margin-right: auto;
+  }
+  &:hover{
+    img{
+      opacity: 0.8;
+    }
+  }
+  z-index: 100;
+}
+
+.btn__next{
+  display: block;
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 0;
+  background-color: rgba(28,28,28,0);
+  border: 0;
+  height: 840px;
+  width: 420px;
+  // cursor: pointer;
+  img{
+    width: 60px;
+    height: 60px;
+    opacity: 0.3;
+    display: flex;
+    margin-right: 45px;
+    margin-left: auto;
+
+  }
+  &:hover{
+    img{
+      opacity: 0.8;
+    }
+  }
+  z-index: 100;
+}
+
+.gallery_popup_img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+  width: 840px;
+  height: 840px;
+}
+
+.close_svg{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  opacity: 0.3;
+}
+
+.btn__download{
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0;
+  top: 0;
+  right: 0;
+  background-color: rgba(28,28,28,0);
+  border: 0;
+  opacity: 0.5;
+  &:hover{
+    opacity: 0.9;
+  }
+}
