@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState } from "react";
+import React, { FC, useState } from "react";
 import { imagesArray } from "../../assets/imagesArray";
 import { TImagesArray } from "../../types/imgTypes";
 import ImgBlock from "./components/ImgBlock/ImgBlock";
